@@ -6,13 +6,13 @@ export default defineConfig({
   build: { outDir: 'dist' },
   server: {
     proxy: {
-      '/api': { target: 'http://localhost:3001', changeOrigin: true },
-      '/admin': { target: 'http://localhost:3001', changeOrigin: true },
-      '/login': { target: 'http://localhost:3001', changeOrigin: true },
-      '/logout': { target: 'http://localhost:3001', changeOrigin: true },
-      '/register': { target: 'http://localhost:3001', changeOrigin: true },
-      '/me': { target: 'http://localhost:3001', changeOrigin: true },
-      '/health': { target: 'http://localhost:3001', changeOrigin: true },
+      '/api': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
+      '/admin': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
+      '/login': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
+      '/logout': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
+      '/register': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
+      '/me': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
+      '/health': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
     }
   }
 })
