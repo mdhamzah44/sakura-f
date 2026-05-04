@@ -6,13 +6,13 @@ export default defineConfig({
   build: { outDir: 'dist' },
   server: {
     proxy: {
-      '/api': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
-      '/admin': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
-      '/login': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
-      '/logout': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
-      '/register': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
-      '/me': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
-      '/health': { target: 'https://webrtc1.arkvisioninfotech.in', changeOrigin: true },
+      '/api': { target: 'https://sakura-b.onrender.com', changeOrigin: true },
+      '/admin': { target: 'https://sakura-b.onrender.com', changeOrigin: true },
+      '/login': { target: 'https://sakura-b.onrender.com', changeOrigin: true },
+      '/logout': { target: 'https://sakura-b.onrender.com', changeOrigin: true },
+      '/register': { target: 'https://sakura-b.onrender.com', changeOrigin: true },
+      '/me': { target: 'https://sakura-b.onrender.com', changeOrigin: true },
+      '/health': { target: 'https://sakura-b.onrender.com', changeOrigin: true },
     }
   }
 })
