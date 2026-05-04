@@ -1,0 +1,10 @@
+{
+  "appId": "com.hamzah.sakura",
+  "appName": "Sakura",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" },
+  "plugins": {
+    "StatusBar": { "style": "LIGHT", "backgroundColor": "#fdf6f0" },
+    "Keyboard": { "resize": "body", "resizeOnFullScreen": true }
+  }
+}
